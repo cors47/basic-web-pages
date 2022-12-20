@@ -1,8 +1,7 @@
-.synopsis {
+.page > p:first-of-type {
     color: #7e8184;
     font-style: italic;
 }
-
 
 .button:link,
 .button:visited {
@@ -15,37 +14,36 @@
     text-align: center;
     border: 2px solid #5d6063;
     border-radius: 5px;
-    
     width: 200px;
     margin: 20px auto;
 }
 
 .button:hover,
 .button:visited:hover {
-    color: #fff;
-    background-color: #76aeed;
+  color: #FFF;
+  background-color: #76AEED;
 }
 
 .button:active,
 .button:visited:active {
-    color: #fff;
-    background-color: #5995da;
+  color: #FFF;
+  background-color: #5995DA;
 }
 
 .call-to-action:link,
 .call-to-action:visited {
-    font-style: italic;
-    background-color: #eeb75a;
+  font-style: italic;
+  background-color: #EEB75A;
 }
 
 .call-to-action:hover,
 .call-to-action:visited:hover {
-    background-color: #f5cf8e;
+  background-color: #F5CF8E;
 }
 
 .call-to-action:active,
 .call-to-action:visited:active {
-    background-color: #eeb75a;
+  background-color: #EEB75A;
 }
 
 .page {
@@ -70,12 +68,10 @@ a:link {
 a:visited {
     color: purple;
 }
-
 a:hover {
     color: aqua;
     text-decoration: underline;
 }
-
 a:active {
     color: red;
 }
@@ -86,4 +82,12 @@ a:visited:hover {
 
 a:visited:active {
     color: red;
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+#button-2 {
+    color: #5d6063;
 }
